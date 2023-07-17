@@ -14,7 +14,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                // Run tests for your .NET project
+                // Run tests for your .NET project..............
                 sh 'dotnet test'
             }
         }
