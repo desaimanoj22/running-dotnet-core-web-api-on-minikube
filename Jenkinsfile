@@ -7,7 +7,7 @@ pipeline {
                 // Checkout the source code from your repository
                 checkout scm
 
-                // Build your .NET project.
+                // Build your .NET project...........
                 sh 'dotnet build'
             }
         }
